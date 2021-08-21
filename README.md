@@ -1,4 +1,4 @@
-# [React JS consumindo REST API RESTful em ASP.NET Core .NET 6](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-asp-dot-net-core-6-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
+# [React JS consumindo REST API's RESTful em ASP.NET 'Core' e .NET 6](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-asp-dot-net-core-6-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
 
 ## [Related Courses](https://pub.erudio.com.br/meus-cursos)
 
