@@ -60,12 +60,16 @@ builder.Services.AddAuthorization(auth =>
             .RequireAuthenticatedUser().Build());
     });
 
-builder.Services.AddCors(options => options.AddDefaultPolicy(builder =>
+var MyAllowSpecificOrigins = "_MyAllowSpecificOrigins";
+builder.Services.AddCors(options => options.AddPolicy(name: MyAllowSpecificOrigins,
+    policy =>
     {
-        builder.AllowAnyOrigin()
-        .AllowAnyMethod()
-        .AllowAnyHeader();
-    }));
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    }
+));
+
 
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddControllers();
@@ -136,7 +140,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors();
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseSwagger();
 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", $"{appName} - v1"));
