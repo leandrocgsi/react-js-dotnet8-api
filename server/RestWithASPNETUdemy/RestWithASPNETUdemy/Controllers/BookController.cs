@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Asp.Versioning;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using RestWithASPNETUdemy.Business;
 using RestWithASPNETUdemy.Data.VO;
 using RestWithASPNETUdemy.Hypermedia.Filters;
-using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Controllers
 {
@@ -31,19 +30,15 @@ namespace RestWithASPNETUdemy.Controllers
 
         // Maps GET requests to https://localhost:{port}/api/book
         // Get no parameters for FindAll -> Search All
-        [HttpGet("{sortDirection}/{pageSize}/{page}")]
+        [HttpGet]
         [ProducesResponseType((200), Type = typeof(List<BookVO>))]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(401)]
         [TypeFilter(typeof(HyperMediaFilter))]
-        public IActionResult Get(
-            [FromQuery] string title,
-            string sortDirection,
-            int pageSize,
-            int page)
+        public IActionResult Get()
         {
-            return Ok(_bookBusiness.FindWithPagedSearch(title, sortDirection, pageSize, page));
+            return Ok(_bookBusiness.FindAll());
         }
 
         // Maps GET requests to https://localhost:{port}/api/book/{id}

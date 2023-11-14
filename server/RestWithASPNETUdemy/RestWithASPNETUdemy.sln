@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30509.190
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34227.203
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestWithASPNETUdemy", "RestWithASPNETUdemy\RestWithASPNETUdemy.csproj", "{D48C211E-E692-4545-9F96-EB0BE4E2324F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestWithASPNETUdemy", "RestWithASPNETUdemy\RestWithASPNETUdemy.csproj", "{82C367D5-D4C3-4FB2-8D2D-A439787BB326}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D48C211E-E692-4545-9F96-EB0BE4E2324F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D48C211E-E692-4545-9F96-EB0BE4E2324F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D48C211E-E692-4545-9F96-EB0BE4E2324F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D48C211E-E692-4545-9F96-EB0BE4E2324F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C367D5-D4C3-4FB2-8D2D-A439787BB326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C367D5-D4C3-4FB2-8D2D-A439787BB326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C367D5-D4C3-4FB2-8D2D-A439787BB326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C367D5-D4C3-4FB2-8D2D-A439787BB326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {87AAB698-CE66-4C60-966E-A0F2BFC1E3F0}
+		SolutionGuid = {2E15B296-67C1-435A-AF48-98423DBDCA32}
 	EndGlobalSection
 EndGlobal
