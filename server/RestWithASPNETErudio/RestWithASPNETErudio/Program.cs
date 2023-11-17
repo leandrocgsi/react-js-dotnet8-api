@@ -64,12 +64,7 @@ builder.Services.AddAuthorization(auth =>
         .RequireAuthenticatedUser().Build());
 });
 
-builder.Services.AddCors(options => options.AddDefaultPolicy(builder =>
-{
-    builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader();
-}));
+builder.Services.AddCors();
 
 builder.Services.AddControllers();
 
@@ -139,7 +134,10 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.UseCors();
+app.UseCors(x => x
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
 
 app.UseSwagger();
 
