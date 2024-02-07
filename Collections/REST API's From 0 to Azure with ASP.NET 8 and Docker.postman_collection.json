@@ -1,8 +1,8 @@
 {
 	"info": {
-		"_postman_id": "517d7024-2bbd-40ca-a118-322ce5af20ae",
-		"name": "REST API's From 0 to Azure with ASP.NET Core 6 and Docker",
-		"description": "API RESTful developed in course 'REST API's From 0 to Azure with ASP.NET Core 6 and Docker'\n\nContact Support:\n Name: Leandro Costa",
+		"_postman_id": "dba9c3e5-dbee-4cc0-b93b-2f5284df717e",
+		"name": "REST API's From 0 to Azure with ASP.NET 8 and Docker",
+		"description": "API RESTful developed in course 'REST API's From 0 to Azure with ASP.NET 8 and Docker'\n\nContact Support:\n Name: Leandro Costa",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -13,7 +13,7 @@
 					"name": "Book/v{version}",
 					"item": [
 						{
-							"name": "/api/Book/v{{version}}/{sortDirection}/{pageSize}/{page}",
+							"name": "/api/Book/v{{version}}",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -740,13 +740,15 @@
 								}
 							]
 						}
-					]
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				},
 				{
 					"name": "Person/v{version}",
 					"item": [
 						{
-							"name": "/api/Person/v{{version}}/{sortDirection}/{pageSize}/{page}",
+							"name": "/api/Person/v{{version}}",
 							"request": {
 								"method": "GET",
 								"header": [
@@ -1809,7 +1811,9 @@
 								}
 							]
 						}
-					]
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				},
 				{
 					"name": "Auth",
@@ -1820,6 +1824,7 @@
 								{
 									"listen": "test",
 									"script": {
+										"id": "17239970-63d3-4d38-92ce-0c78a2b257bd",
 										"exec": [
 											"if (responseCode.code >= 200 && responseCode.code <= 299) {\r",
 											"    var jsonData = JSON.parse(responseBody);\r",
@@ -1966,6 +1971,7 @@
 								{
 									"listen": "test",
 									"script": {
+										"id": "c2d70997-bfa7-4326-9388-ba01be08fbef",
 										"exec": [
 											"if (responseCode.code >= 200 && responseCode.code <= 299) {\r",
 											"    var jsonData = JSON.parse(responseBody);\r",
@@ -2112,6 +2118,7 @@
 								{
 									"listen": "test",
 									"script": {
+										"id": "ab2c7121-b85c-4cff-8445-391096b0969a",
 										"exec": [
 											"if (responseCode.code >= 200 && responseCode.code <= 299) {\r",
 											"    var jsonData = JSON.parse(responseBody);\r",
@@ -2253,7 +2260,9 @@
 								}
 							]
 						}
-					]
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				},
 				{
 					"name": "File",
@@ -2688,22 +2697,28 @@
 								}
 							]
 						}
-					]
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				}
-			]
+			],
+			"protocolProfileBehavior": {}
 		}
 	],
 	"variable": [
 		{
+			"id": "baseUrl",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "string"
 		},
 		{
+			"id": "version",
 			"key": "version",
 			"value": "",
 			"type": "any",
 			"description": {}
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
