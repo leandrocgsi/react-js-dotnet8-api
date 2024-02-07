@@ -1,0 +1,1 @@
+for i in `find /home/database/ -name "*.sql" | sort --version-sort`; do mysql -udocker -pdocker docker_from_zero_to_mastery_dotnet < $i; done;
