@@ -31,10 +31,6 @@
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/28_CICD_JavaAzure.png?raw=true "Java Continuous Integration and Delivery with Azure and Github Actions")](https://www.udemy.com/course/java-continuous-integration-continuous-delivery-azure-e-github-actions/?couponCode=GTHB_FLASH_SALE2021)
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_do_zero_a_maestria_conteinerizacao_desmistificada.png?raw=true "Docker do Zero à Maestria - Contêinerização Desmistificada")](https://www.udemy.com/course/docker-do-zero-a-maestria-conteinerizacao-desmistificada/?couponCode=GTHB_FLASH_SALE2021)
 
-[![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/microservices.png?raw=true "Microservices do 0 à GCP com Spring Boot, Kubernetes e Docker")](https://www.udemy.com/course/microservices-do-0-a-gcp-com-spring-boot-kubernetes-e-docker/?couponCode=GTHB_FLASH_SALE2021)
-
-[![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/rest_apis_restful_do_0_à_nuvem_com_spring_boot_2_e_docker.png?raw=true "REST API's RESTFul do 0 à AWS Com Spring Boot 2.x e Docker")](https://www.udemy.com/course/restful-apis-do-0-a-nuvem-com-springboot-e-docker/?couponCode=GTHB_FLASH_SALE2021)
-
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_para_amazon_aws_implante_apps_java_e_dot_net_com_travis_ci.png?raw=true "Docker para Amazon AWS Implante Apps Java e .NET com Travis CI")](https://www.udemy.com/course/docker-para-amazon-aws-implante-aplicacoes-java-e-net/?couponCode=GTHB_FLASH_SALE2021)
 
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/react_kotlin.png?raw=true "React JS consumindo REST API RESTful em Spring Boot e Kotlin")](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-spring-boot-kotlin-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
