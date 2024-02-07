@@ -29,7 +29,7 @@ export default function Books(){
     }, [accessToken]);
 
     async function fetchMoreBooks() {
-        const response = await api.get(`api/Book/v1/asc/4/${page}`, authorization);
+        const response = await api.get(`api/book/v1/asc/4/${page}`, authorization);
         setBooks([ ...books, ...response.data.list]);
         setPage(page + 1);
     }
@@ -55,7 +55,7 @@ export default function Books(){
 
     async function deleteBook(id) {
         try {
-            await api.delete(`api/Book/v1/${id}`, authorization);
+            await api.delete(`api/book/v1/${id}`, authorization);
 
             setBooks(books.filter(book => book.id !== id))
         } catch (err) {

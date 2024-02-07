@@ -62,10 +62,10 @@ export default function NewBook(){
 
         try {
             if(bookId === '0') {
-                await api.post('api/Book/v1', data, authorization);
+                await api.post('api/book/v1', data, authorization);
             } else {
                 data.id = id;
-                await api.put('api/Book/v1', data, authorization);
+                await api.put('api/book/v1', data, authorization);
             }
         } catch (err) {
             alert('Error while recording Book! Try again!')
