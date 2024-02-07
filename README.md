@@ -1,4 +1,12 @@
-# [React JS consumindo REST API's RESTful em ASP.NET 'Core' e .NET 6](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-asp-dot-net-core-6-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
+# [React JS consumindo REST API's RESTful em ASP.NET 8 e .NET 8](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-asp-dot-net-core-6-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
+
+![Forks](https://img.shields.io/github/forks/leandrocgsi/react-js-dotnet8-api)
+![Stars](https://img.shields.io/github/stars/leandrocgsi/react-js-dotnet8-api)
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=ZJ4NQJXEKQ63A)
+[![Docker Hub Repo](https://img.shields.io/docker/pulls/leandrocgsi/rest-react-dotnet-server.svg)](https://hub.docker.com/repository/docker/leandrocgsi/rest-react-dotnet-server)
+![Last Commit](https://img.shields.io/github/last-commit/leandrocgsi/react-js-dotnet8-api)
+[![GitHub repo](https://img.shields.io/badge/GitHub-Repository-green.svg)](https://github.com/leandrocgsi/react-js-dotnet8-api)
+[![Continuous Integration with GitHub, GitHub Actions and Docker Hub](https://github.com/leandrocgsi/rest-react-playground/actions/workflows/continuous-integration-dotnet.yml/badge.svg)](https://github.com/leandrocgsi/rest-react-playground/actions/workflows/continuous-integration-dotnet.yml)
 
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/react_.net6.png?raw=true "React JS consumindo REST API RESTful em ASP.NET Core .NET 6")](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-asp-dot-net-core-6-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
 
@@ -36,4 +44,4 @@
 
 [![Image](https://github.com/leandrocgsi/RestWithSpringBootUdemy/blob/master/Images/docker_to_amazon_aws_deploy_apps_java_and_dot_net_with_travis_ci.png?raw=true "Docker to Amazon AWS Deploy Java & .NET Apps with Travis CI")](https://www.udemy.com/course/docker-to-amazon-aws-deploy-java-net-apps-with-travis-ci/?couponCode=GTHB_FLASH_SALE2021)
 
-[<img src="https://github.com/leandrocgsi/react-js-dotnet6-api/blob/main/Images/course_page.png?raw=true?raw=true">](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-asp-dot-net-core-6-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
+[<img src="https://github.com/leandrocgsi/react-js-dotnet8-api/blob/main/Images/course_page.png?raw=true?raw=true">](https://www.udemy.com/course/aprenda-consumir-apis-restful-em-asp-dot-net-core-6-com-react-js-axios/?couponCode=GTHB_FLASH_SALE2021)
